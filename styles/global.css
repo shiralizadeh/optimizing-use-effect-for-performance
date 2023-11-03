@@ -1,0 +1,66 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1,
+.color-primary {
+  color: rgb(251, 146, 60);
+}
+
+h2,
+strong {
+  color: rgb(253, 186, 116);
+}
+
+.slidev-layout {
+  padding: 5rem 4rem;
+}
+
+li {
+  list-style: outside;
+}
+
+.rounded-io {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 50%;
+}
+
+.slidev-layout + div {
+  background-position: top center !important;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 50%;
+}
+
+pre {
+  text-align: left;
+}
+
+.diagram,
+.code {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.code {
+  transition: transform 0.25s;
+}
+
+.code:hover {
+  transform: scale(1.15);
+}
+
+.diagram {
+  margin-top: 1rem;
+  height: 80%;
+}
