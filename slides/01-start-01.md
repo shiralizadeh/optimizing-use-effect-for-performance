@@ -3,7 +3,7 @@ layout: cover
 ---
 
 <h1 class="font-bold text-orange-300">
-  Optimizing useEffect for Performance?
+  Optimizing <span class="text-orange-100">useEffect</span> for Performance?
 </h1>
 
 <h2 class="text-orange-100">
